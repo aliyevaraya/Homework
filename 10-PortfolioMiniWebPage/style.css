@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-color: #fffaed;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+nav ul{
+    display: flex;
+    column-gap: 50px;
+}
+#header .fa-bars{
+    display: none;
+}
+#header .logo h2{
+    text-shadow: 0px 3px 3px rgb(120, 118, 118);
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+span{
+    color: #e9b949;
+}
+.banner{
+    background-color: #fffaed;
+}
+
+#banner{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 49px;
+}
+
+.banner-info, .banner-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-info{
+    flex-direction: column;
+    margin-left: 60px;
+}
+.banner-info .title{
+    font-size: 36px;
+}
+.logo, nav ul li a, .social-icon a{
+    color: black;
+}
+.banner-info .title::before{
+    content: "";
+    border: 2px solid #e9b949;
+    display: block;
+    width: 60px;
+}
+.banner-info p{
+    color: rgb(37, 21, 141);
+    letter-spacing: 3px;
+}
+.banner .hire, .about-me{
+    width: 120px;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #e9b949;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: none;
+    font-size: 12px;
+}
+.banner .hire:hover{
+    background-color: #a27708;
+    color: rgb(214, 214, 214);
+}
+.social-icon{
+    width: 250px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-image .border{
+    border: 2px solid #e9b949;
+    width: 250px;
+    border-radius: 8px;
+}
+.border img{
+    width: 250px;
+    position: relative;
+    top: -15px;
+    left: -20px;
+    border-radius: 8px;
+}
+#about{
+    height: 100%;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-image, .about-info{
+    width: 50%;
+}
+.about-image{
+    display: flex;
+    justify-content: center;
+}
+.border-about-image{
+    width: 250px;
+    border: 2px solid #e9b949;
+    border-radius: 8px;
+}
+.border-about-image img{
+    width: 250px;
+    border-radius: 8px;
+    position: relative;
+    top: -15px;
+    left: 20px;
+}
+.about-title{
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+.about-title::after{
+    content: "";
+    border: 2px solid #e9b949;
+    display: block;
+    width: 60px;
+    margin-top: 5px;
+  }
+  .about-info p{
+    font-weight: 300;
+    color: rgb(25, 25, 170)
+  }
+  .about-info .p1
+    {
+        margin: 20px 0;
+    }
+  .about-me{
+   width: 130px;
+   text-transform: uppercase;
+  }
+  .about-me:hover{
+    background-color: rgb(42, 135, 104);
+    color: wheat;
+  }
+  
+  .services{
+    height: 100%;
+    padding: 50px;
+    background-color: rgb(223, 244, 244);
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  #services h2{
+    margin-bottom: 40px;
+    font-size: 36px;
+    letter-spacing: 5px;
+  }
+  #services h2, .services-info h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #services h2::after, .services-info h3::after{
+    content: "";
+    border: 2px solid #e9b949;
+    width: 60px;
+    margin-top: 5px ;
+  }
+  .services-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web-development, .web-design, .app-design{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 20px 5px 5px ;
+    background-color: white;
+    margin: 10px;
+    font-weight: 300;
+    row-gap: 25px;
+} 
+
+.services-info .fa-solid, .fa-android{
+    font-size: 24px;
+}
+
+.web-development:hover, .web-design:hover, .app-design:hover{
+    color: white;
+    background-color: #e9b949;
+}
+.web-development:hover h3::after,
+.web-design:hover h3::after,
+.app-design:hover h3::after
+{
+    border-color: white;
+}
+
+#footer{
+    display: flex;
+     flex-direction: column;
+     justify-content: center;  
+     align-items: center;
+     background-color: black;
+     row-gap: 20px;
+}
+#footer .fa-brands{
+    color: #e9b949;
+}
+.copyright{
+    display: flex;
+    column-gap: 5px;
+    color: rgb(31, 31, 94);
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width:991px){
+   #about, #banner, .services-info{
+    flex-direction: column;
+ }
+    #banner{
+        justify-content: space-around;
+}
+  .about-image, .about-info{
+    
+  }
+  .services-info{
+    
+  }
+}
+@media only screen and (max-width:767px){
+#header .fa-bars{
+    display: block;
+}
+#header nav ul{
+    display: none;
+}
+}

@@ -1,0 +1,8 @@
+Once html ile sehifenin strukturunu qurub sectionlara boldum.
+Hem inline, hemde external css ile gorunus dizayni verdim.
+Display: center, justify-item: center ile sec3 merkeze yerlesdirmek istedim alinmadi oda gore div acib padding-left ile merkeze getirmeye calisdim.
+Sec3 ile sec2 arasinda bosluq yaranirdi ona gore display:flow-root yazdim tam funksiyasini anlamasamda(
+Input radio ve checkbox`un serhedlerine reng vermeyi arasdirdim ancaq tapmadim(
+Sonra GWP101 folderinde terminal acib 06_css folderini git add, git commit eledikden sonra git push edib githubdaki GWP101 reposuna gonderdim.     
+Readme faylini elave etmediyim ucun folderde yaradib git add .git commit.git push edib repoya gonderdim
+ 

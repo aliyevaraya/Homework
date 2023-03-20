@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+      *{
+        box-sizing: border-box
+      }
+        body{
+            background-image: url(./images/planet-landscape.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        section{
+            
+            color: rgb(44, 44, 86);
+        }
+        #sec1{
+            margin-left: 350px;
+        }
+        #sec1 p{
+            margin-right: 80px;
+        }
+      fieldset{
+        background-color: rgba(255, 254, 254, 0.2);
+        height: 400px;
+        width: 300px;
+        margin-right: 350px;
+        margin-top: 100px;
+      }
+        #sec1 button{
+            color: rgb(37, 37, 132);
+            width: 25%;
+        }
+        button{
+            background-color: transparent;
+            color: rgb(24, 24, 40);
+            border-color: rgb(4, 4, 4);
+            height: 30px;
+           }
+        #sec2 button{
+            width: 60%;
+        }
+        #sec1 button:hover{
+            color: chocolate;
+        }
+        button:hover{
+            background-color: blanchedalmond;
+            color: chocolate;
+            border: none;
+        }
+        #sec2 input{
+            width: 250px;
+        }
+        #sec2 input:hover{
+            border-color: rgb(0, 91, 107);
+        }
+       
+    </style>
+</head>
+<body>
+    <section id="sec1">
+       
+        <h2>Sign up right now!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt eveniet nulla necessitatibus vero quo quae est doloremque, illum sunt iure. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero dolorum quod recusandae, expedita quasi placeat nisi perspiciatis explicabo esse porro deserunt veniam maiores sapiente ad, impedit ut laboriosam inventore cumque dolore qui. Nam voluptate ipsum aut ipsa a nesciunt totam!</p>
+     <a href="background.html"><button type="submit">Learn more</button></a>
+    
+</section>
+    <section id="sec2">
+        <form action="" id="Registr">
+            <fieldset>
+           <h2>Registr</h2>
+           <label for="name">Your name</label>
+           <br>
+           <input type="text" id="name" required>
+           <br><br><hr><br>
+           <label for="email">Your email</label>
+           <br>
+           <input type="email" id="email" required>
+           <br><br><hr><br>
+           <label for="pw">Your password</label>
+           <br>
+           <input type="password" id="pw" required>
+           <br><br><hr><br>
+           <button type="submit">Sign up</button>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>

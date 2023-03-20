@@ -1,0 +1,8 @@
+Background images ucun folder yaradib sekilleri hemin foldere yukledim.
+2 eded html fayli yaratdim
+Htmlde strukturu qurduqdan sonra internal css ile background yerlesdirdim, paraqrafin, labelin sriftinin, buttons ve inputun serhedlerinin rengini deyisdim.
+Display, justify, align-item : center, margin ile merkezde yerlesdirmeye calisdim
+Formu cerciveye almaq ucun fieldset tagindan istifade eledim. 'Opacity' eleve elemek ucun rgba ile arxa fona reng verdim
+2ci html faylini ferqli background vermek ucun sectionlara boldum.
+Internal css ile linklere reng verdim, sag ve sol bosluq ucun margin elave eledim.
+

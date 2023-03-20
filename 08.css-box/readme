@@ -1,0 +1,8 @@
+htmlde sehifenin strukturunu qurdum
+ilk header`de nav hissesi yazdim
+sonra divde texti yazdim
+2ci sec acib bg verdim, sonra sonuncu section`i footer`de yazdim
+external css ile gorunus verdim
+nav hissesinde hover etdikde zoomlama olur sizin taskdaki kimi sabit qalmir. I don1t know why
+sonra git add, commit,push edib repoya gonderdim
+ 
