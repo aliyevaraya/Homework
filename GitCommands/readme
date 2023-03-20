@@ -1,6 +1,0 @@
-GWP101 reposunu yaradib GitCommand qovlugunu elave etdim
-git clone edib command`la VS`i acdim
-item.txt ve users.txt yaratdim
-product.txt faylini yaradib butun fayllari staging area`ya gonderib commit eledim
-product.txt  yaradib .gitignore faylina elave etdim git add . ve commit commandlarini yerine yetirdim
-secret qovlugunu yaradib icerisinde fayllar acib git add . ve commit ederek push etdim.
