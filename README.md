@@ -6,6 +6,7 @@
 + https://06-css.netlify.app/
 + https://07-css.netlify.app/
 + https://08-css-box.netlify.app/
++ https://optinal.netlify.app/
 + https://09-grid.netlify.app/
 + https://09-media.netlify.app/
 + https://10-portfoliominiwebpage.netlify.app/
