@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Catamaran', sans-serif;
+}
+.sec1{
+    background-color: #f1f5f9;
+    min-height: 55vh;
+}
+
+#sec1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    column-gap: 25px;
+    padding-top: 50px;
+}
+
+h2{
+    font-family:'Grand Hotel';
+    color: #688f37;
+    font-size: 32px;
+    letter-spacing: 5px;
+}
+h1{
+    font-weight: bold;
+    margin-bottom: 15x;
+    font-size: 38px;
+    letter-spacing: 5px;
+}
+p{
+    margin-bottom: 20px;
+}
+button{
+    background-color: #688f37;
+    padding: 8px 15px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border: none;
+    text-transform: uppercase;
+}
+#sec1 button{
+    border-radius: 5px;
+}
+
+#sec1 img{
+    width: 100%;
+    height: 70%;
+}
+#sec1 h3{
+     margin: 15px 0 5px 0;
+     letter-spacing: 3px;
+     font-size: 16px;
+     font-weight: bold;
+}
+#sec1 span{
+    color: #688f37;
+    font-weight: bold;
+}
+
+#sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sec2 h2{
+    margin-top: 50px;
+}
+
+.explore{
+    display: flex;
+    column-gap: 40px;
+    width: 80%;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.explore div{
+    background-color: #f1f5f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.explore img{
+    width: 100%;
+}
+#sec2 h4{
+    letter-spacing: 2px;
+}
+#sec2 p{
+    text-align: center;
+    padding: 5px;
+}
+#sec2 button{
+    border-radius: 15px;
+    margin: 40px;
+}
+.fa-solid{
+    color: #688f37;
+    background-color: rgb(189, 236, 94);
+    min-width: 15%;
+    padding: 10px;
+    border-radius: 42%;
+    text-align: center;
+    border: 3px solid white;
+    font-size: 20px;
+    position: relative;
+    top: -18px;
+}
+@media only screen and (777px < width < 992px ){
+    #sec1{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+        padding: 30px;
+        width: 70%;
+        margin: 0 auto;
+        row-gap: 20px;
+    }
+
+    .explore{
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+        row-gap: 30px;
+    }
+}
+@media only screen and (max-width:777px){
+    #sec1{
+        grid-template-columns: 1fr;
+        width: 60%;
+        margin: 0 auto;
+        row-gap: 20px;
+        padding: 30px;
+    }
+    .explore{
+        flex-direction: column;
+        min-width: 70%;
+        margin: 0 auto;
+        row-gap: 30px;
+    }
+   
+}
