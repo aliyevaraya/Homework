@@ -3,8 +3,8 @@
 + https://03-list.netlify.app/
 + https://04-form.netlify.app/
 + https://05-firsthtmlfullsite.netlify.app/
-+ https://06-css.netlify.app/
-+ https://07-css.netlify.app/
++ https://06-css-selector.netlify.app/
++ https://07-css-background.netlify.app/
 + https://08-css-box.netlify.app/
 + https://optinal.netlify.app/
 + https://09-grid.netlify.app/
