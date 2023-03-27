@@ -60,7 +60,7 @@ span{
 
 .banner .banner-info{
     flex-direction: column;
-    margin-left: 60px;
+    padding: 60px;
 }
 .banner-info .title{
     font-size: 36px;
@@ -68,7 +68,7 @@ span{
 .logo, nav ul li a, .social-icon a{
     color: black;
 }
-.banner-info .title::before{
+.banner-info .title::before, .about-title::after{
     content: "";
     border: 2px solid #e9b949;
     display: block;
@@ -114,10 +114,9 @@ span{
 }
 #about{
     height: 100%;
-    margin: 50px;
+    padding: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .about-image, .about-info{
     width: 50%;
@@ -143,10 +142,6 @@ span{
     letter-spacing: 5px;
 }
 .about-title::after{
-    content: "";
-    border: 2px solid #e9b949;
-    display: block;
-    width: 60px;
     margin-top: 5px;
   }
   .about-info p{
@@ -250,12 +245,7 @@ span{
     #banner{
         justify-content: space-around;
 }
-  .about-image, .about-info{
-    
-  }
-  .services-info{
-    
-  }
+  
 }
 @media only screen and (max-width:767px){
 #header .fa-bars{
