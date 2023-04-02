@@ -12,3 +12,4 @@
 + https://10-portfoliominiwebpage.netlify.app/
 + https://11responsive2sections.netlify.app/
 + https://12-responsive-page.netlify.app/
++ https://14quickly-landing-page.netlify.app/
