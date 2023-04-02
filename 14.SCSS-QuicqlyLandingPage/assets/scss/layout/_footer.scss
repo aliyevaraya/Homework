@@ -1,0 +1,150 @@
+footer {
+  padding-top: 58px;
+  background-color: $color_dark;
+  color: $color_white;
+  .top {
+    @include flexBox();
+    .free-trial {
+      width: 50%;
+      h3 {
+        font-size: 36px;
+        margin-bottom: 31px;
+      }
+      .about {
+        display: flex;
+        gap: 24px;
+        .col {
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+          margin-bottom: 39px;
+          div {
+            display: flex;
+            align-items: center;
+            column-gap: 16px;
+          }
+          .fa-solid {
+            background-color: $color_light;
+            color: $primary_color;
+            height: 16px;
+            width: 16px;
+            border-radius: 4px;
+            @include flexBox(center);
+          }
+        }
+      }
+      .footer-input{
+        position: relative;
+        input {
+          @include input();
+        }
+        button {
+         @include input-btn();
+        }
+      }
+    }
+    .mobile-footer {
+      display: none;
+    }
+    .about-company {
+      width: 50%;
+      @include flexBox(space-around);
+      ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        li {
+          h5 {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+  .bottom {
+    margin-top: 52px;
+    h5 {
+      text-align: center;
+      font-size: 18px;
+      padding-bottom: 16px;
+      &::before {
+        content: "";
+        display: block;
+        border: 1px solid $color_light;
+        margin-bottom: 14px;
+      }
+    }
+    p {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 777px) {
+    padding-top: 20px;
+    .top {
+      flex-direction: column;
+      .free-trial {
+        display: none;
+      }
+      .mobile-footer {
+        display: block;
+        h1 {
+          padding-bottom: 30px;
+          text-align: center;
+        }
+        a {
+          padding: 20px;
+          .fa-brands {
+            padding: 10px;
+            font-size: 24px;
+            color: $color_white;
+            border: 1px solid white;
+            border-radius: 50%;
+          }
+        }
+      }
+      .about-company {
+        flex-direction: column;
+        margin-top: 30px;
+        row-gap: 30px;
+        text-align: center;
+        ul {
+          li {
+            color: $color_light;
+          }
+        }
+      }
+    }
+    .bottom {
+      padding: 15px;
+      h5 {
+        display: none;
+      }
+      p {
+        display: block;
+        text-align: center;
+        margin-top: 25px;
+        animation: copyright 1s linear infinite;
+        span {
+          &::before {
+            content: "";
+            border: 1px solid $color_white;
+            margin: 0 10px;
+            display: inline-block;
+            height: 12px;
+          }
+        }
+        @keyframes copyright {
+          0% {
+            transform: rotate(0deg);
+          }
+          50% {
+            transform: rotate(-2deg);
+          }
+          to {
+            transform: rotateX(2deg);
+          }
+        }
+      }
+    }
+  }
+}

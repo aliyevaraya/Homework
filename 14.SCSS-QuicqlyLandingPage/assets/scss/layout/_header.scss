@@ -1,0 +1,62 @@
+header {
+  background-color: $primary_color;
+  padding: 26px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  .header {
+    @include flexBox();
+    width: 100%;
+    h4 {
+      color: white;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    nav {
+      ul {
+        @include flexBox();
+        gap: 32px;
+        li {
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+    .btn {
+      @include flexBox();
+      gap: 28px;
+      .sign-up {
+        background-color: $secondary_color;
+        border: none;
+        color: $primary_color;
+        padding: 10px 16px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+      }
+      .log-in {
+        background-color: transparent;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        color: $color_white;
+        border: none;
+        font-size: 14px;
+      }
+    }
+    .menu {
+      display: none;
+    }
+    @media only screen and (max-width: 777px) {
+      nav {
+        display: none;
+      }
+      .btn {
+        display: none;
+      }
+      .menu {
+        display: block;
+        color: $color_white;
+      }
+    }
+  }
+}

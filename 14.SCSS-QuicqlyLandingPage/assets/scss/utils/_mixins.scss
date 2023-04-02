@@ -1,0 +1,26 @@
+@mixin flexBox($justify-content: space-between, $align-items: center) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+  }
+  @mixin input($input-border: none, $width: 50%) {
+      padding: 11px 44px;
+      font-size: 18px;
+      color: rgba(32, 72, 79, 0.2);
+      border: $input-border;
+      border-radius: 8px;
+      width: $width;
+    }
+    @mixin input-btn{
+      width: 130px;
+      height: 42px;
+      position: absolute;
+      right: 50%;
+      background-color: $color_light;
+      border: none;
+      border-bottom-right-radius: 8px;
+      border-top-right-radius: 8px;
+      color: $color_dark;
+      font-size: 18px;
+    }
+  
